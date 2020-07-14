@@ -22,22 +22,25 @@ second_number = gets.chomp
 if prompt == '1'
   puts "You have chosen to multiply #{first_number} with #{second_number}"
   result = multiply(first_number, second_number)
-  puts result
+  puts "Result = #{first_number} * #{second_number} = #{result}"
+
 elsif prompt == '2'
   puts "You have chosen to divide"
   result = divide(first_number, second_number)
-    puts result
+  puts "Result = #{first_number} / #{second_number} = #{result}"
 
 elsif prompt == '3'
   puts "You have chosen to subtract"
   result = subtract(first_number, second_number)
-    puts result
+  puts "Result = #{first_number} - #{second_number} = #{result}"
+
 
 elsif prompt == '4'
   puts "You have chosen to find the remainder"
   result = mod(first_number, second_number)
-    puts result
+    puts "Result = #{result}"
+
 
 else
-  puts "You have made an invalid choice"
+  puts "You have made an invalid choice Please choose a valid one..."
 end
