@@ -1,3 +1,4 @@
+puts "Welcome"
 puts "Simple calculator"
 20.times { print "-" }
 puts
