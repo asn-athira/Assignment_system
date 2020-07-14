@@ -22,17 +22,17 @@ second_number = gets.chomp
 if prompt == '1'
   puts "You have chosen to multiply #{first_number} with #{second_number}"
   result = multiply(first_number, second_number)
-  puts "Result = #{result}"
+  puts "Result = #{first_number} * #{second_number} = #{result}"
 
 elsif prompt == '2'
   puts "You have chosen to divide"
   result = divide(first_number, second_number)
-    puts "Result = #{result}"
+  puts "Result = #{first_number} / #{second_number} = #{result}"
 
 elsif prompt == '3'
   puts "You have chosen to subtract"
   result = subtract(first_number, second_number)
-    puts "Result = #{result}"
+  puts "Result = #{first_number} - #{second_number} = #{result}"
 
 
 elsif prompt == '4'
