@@ -1,3 +1,5 @@
+puts "Hiii welcome......"
+
 puts "Enter your first name"
 first_name = gets.chomp
 puts "Enter your last name"
